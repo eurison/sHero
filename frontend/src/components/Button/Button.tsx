@@ -6,9 +6,10 @@ type Props = {
   setSelected?: (selected: string) => void
   className?: string
   variant: "light" | "dark"
+  onclick?: () => void
 }
 
-export function Button({ title, className, variant = "dark" }: Props) {
+export function Button({ title, className, variant = "dark", onclick }: Props) {
   return (
     <button
       className={classNames(
@@ -19,6 +20,7 @@ export function Button({ title, className, variant = "dark" }: Props) {
           "bg-white border-2 border-evergreen-light text-evergreen-light",
         className
       )}
+      onClick={onclick}
     >
       {title}
     </button>

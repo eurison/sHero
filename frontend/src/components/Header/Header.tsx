@@ -1,7 +1,6 @@
 import backgroundImage from '../../assets/img/background-header.png'
 import { Button } from '../Button/Button'
 import { Container } from '../Container/Container'
-import { Title } from '../Title/Title'
 import { HeaderTitle } from './HeaderTitle'
 export function Header() {
   return (
