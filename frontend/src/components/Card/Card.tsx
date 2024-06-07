@@ -19,7 +19,7 @@ export default function Card({id}: Props) {
         className="col-span-1 w-full  rounded-sm"
       />
       <div className="col-span-2 px-4">
-        <p className="font-bold text-2xl text-evergreen">Codigo limpo</p>
+        <p className="font-bold text-2xl text-evergreen">Código limpo</p>
         <p className="font-light text-lg text-gray-500 mb-3">Autor</p>
         <Tag title={'VueJs'} className="mb-3"/>
         <p>
